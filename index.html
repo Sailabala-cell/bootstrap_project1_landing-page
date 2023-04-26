@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resort</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- fontaweosme link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+
+<body>
+    <div class="app-conatiner">
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Accomodations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Dining</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                       
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control r-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-warning ml-3" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+        <!-- Carousel start -->
+        <section class="carousel-section">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" id="caro-indicators" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button"  id="caro-indicators" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" id="caro-indicators" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" id="caro-indicators" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" 
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/res1.jpg" class="d-block w-100" alt="resort1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/res2.jpg" class="d-block w-100" alt="resort2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/res3.jpg" class="d-block w-100" alt="resort3">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/res4.jpg" class="d-block w-100" alt="resort4">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </section>
+        <!-- Carousel end -->
+        <!-- Latest listings start -->
+        <section class="latest-listings">
+          <div class="container">
+             <div class="row text-center my-5">
+                <div class="col-12"> 
+                    <h1 class="text-center my-3" style="color:purple">Latest Listings</h1>
+                </div>
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card mb-2 shadow-lg" >
+                    <img src="images/res4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:purple">Azure Haven Resort</h5>
+                        <p class="card-text">Azure Haven Resort caters to discerning travelers looking for a high-end vacation experience, with exceptional service,
+                        attention to detail, and a focus on luxury and comfort.
+                    Guests can enjoy snorkeling, scuba diving,<span> view more...</span></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Luxurious Accommodations</li>
+                        <li class="list-group-item">Indulgent Spa Services</li>
+                        <li class="list-group-item">Top-notch Amenities</li>
+                    </ul>
+                   
+                </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card mb-2 shadow-lg" >
+                        <img src="images/res6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:purple">Mystic Pines Lodge</h5>
+                            <p class="card-text">Mystic Pines Lodge offers a variety of outdoor activities, including hiking, fishing, kayaking, and wildlife watching.
+                                The lodge's experienced guides and staff are available to assist guests with planning their outdoor adventures and
+                                <span>view more...</span>
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Rustic Cabins</li>
+                            <li class="list-group-item">Outdoor Activities</li>
+                            <li class="list-group-item">Wellness Services</li>
+                        </ul>
+                
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card mb-2 shadow-lg" >
+                        <img src="images/res7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="color:purple">Sunset Bay Resort</h5>
+                            <p class="card-text">The resort's elegant and spacious rooms and suites feature luxurious amenities, such as private balconies, plush
+                            bedding, and high-end furnishings, that create a relaxing and indulgent atmosphere.
+                        The resort's dining and <span>
+                            view more...</span></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Secluded Beachfront Location</li>
+                            <li class="list-group-item">World-Class Dining</li>
+                            <li class="list-group-item">Infinity Pool and Beach Access</li>
+                        </ul>
+                
+                    </div>
+                </div>
+             </div>
+          </div>
+        </section>
+        <!-- Latest listings end -->
+        <!-- View all listings start -->
+        <section class=" d-flex flex-column justify-content-center align-items-center all-listings my-2 text-white text-center container-fluid bg-primary bg-gradient">
+        <i class="fs-3 fa-solid fa-paper-plane mt-2"></i>
+        <h2 class="text-uppercase">View All Listings</h2>
+        <button class="btn btn-info text-white p-2 text-uppercase">Listings...</button>
+        </section>
+        <!-- View all listings end -->
+        <!-- Contact form start -->
+         <div class="contact-form mx-auto shadow-lg p-5 my-4">
+            <h1 class="text-center my-3" style="color:purple">Contact form</h1>
+            <form>
+                <div class="mb  -3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputname" class="form-label">Full Name</label>
+                    <input type="password" class="form-control" id="exampleInputname">
+                </div>
+                <div class="mb-3">
+                    
+                    <label for="contactmsg" class="form-label" for="exampleCheck1">Your message</label>
+                    <textarea class="form-control" id="contactmsg" rows="6" cols="10"></textarea>
+                </div>
+                <div class="d-grid mt-3 mb-5">
+                    <button type="submit" class="btn btn-primary ">Submit</button>
+                </div>
+               
+            </form>
+         </div>
+        <!-- Contact forn end -->
+        <!-- footer start -->
+         <div class="footer-section bg-primary bg-gradient text-white text-center" >
+            <div class="container-fluid">
+                <div class="row pt-5">
+                     <div class="d-flex flex-column col-md-4 col-sm-12  pb-3">
+                         <h2 class="text-uppercase">Quick Links</h2>
+                         <a href="#" class="text-white p-1">About us</a>
+                        <a href="#" class="text-white p-1">Our Team</a>
+                        <a href="#" class="text-white p-1">Portfolio</a>
+                     </div>
+                    <div class="col-md-4 col-sm-12 pb-3">
+                        <h5 class="text-uppercase">Newsletter</h5>
+                         <input class="form-control my-3" type="text" placeholder="Your gmail id"></input>
+                         <button class="btn btn-success">Submit</button>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h5 class="text-uppercase">Contact details</h5>
+                        <p>Street no 35, <br>
+                        Mumbai <br>
+                        Mahrashtra 012344,India
+                        </p>
+                        
+                       
+                    </div>
+                </div> 
+            </div>
+            <div class="row text-center p-3 mb-5">
+                <div class="col-12">
+                    <p class="mb-5">All rights reserved @2023</p>
+                </div>
+            
+            </div>
+         </div>
+        <!-- footer end -->
+        <!-- copy-right -->
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
