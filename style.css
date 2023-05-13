@@ -45,3 +45,18 @@ body{
         width:90vw;
     }
 }
+.bg_primary{
+    background-color: #3B185F;
+}
+.btn_info{
+   background-color:#C060A1;
+
+}
+.btn_info1{
+    background-color: #C060A1;
+    color:white
+}
+span.carousel-control-prev-icon {
+    height: 200px;
+    color: yellow;
+}
